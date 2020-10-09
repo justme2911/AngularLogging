@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Log-Sample';
+  //Declarations
+  title = 'openWeatherAngular';
+  //Constructor.
+  constructor() {
+      
+  }
+
+
+  ngOninit(){
+  }
+
+
 }
