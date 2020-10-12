@@ -34,7 +34,7 @@ export class WeatherComponent {
     private sanitizer: DomSanitizer) { }
 
   ngOninit() {
-    this.logger.debug("Loaded the weather app");
+
   }
 
   /*

@@ -29,7 +29,7 @@ import { LoggerModule, NgxLoggerLevel } from 'ngx-logger';
       serverLoggingUrl: 'http://localhost:8080/api/logs',
       level: NgxLoggerLevel.TRACE,
       serverLogLevel: NgxLoggerLevel.DEBUG,
-      disableConsoleLogging: true
+      disableConsoleLogging: false
     })
   ],
   providers: [],
